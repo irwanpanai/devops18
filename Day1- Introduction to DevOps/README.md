@@ -11,6 +11,7 @@ Beberapa praktik umum dalam DevOps meliputi otomatisasi konfigurasi infrastruktu
 Secara keseluruhan, DevOps bertujuan untuk mengatasi kesenjangan antara pengembangan dan operasi, sehingga organisasi dapat mencapai rilis perangkat lunak yang lebih cepat, lebih andal, dan lebih responsif terhadap perubahan pasar dan kebutuhan pengguna.
 
 ## Lifecycle DevOps
+![DevOps-Lifecycle](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/474fcb69-6453-449a-80de-dfbd52b2abe5)
 Pendekatan DevOps melibatkan beberapa praktik dan siklus yang dikenal sebagai "Continuous X" (Berlanjut X), yang masing-masing fokus pada aspek tertentu dalam pengembangan perangkat lunak dan manajemen infrastruktur secara terus-menerus. Berikut adalah beberapa fase penting dalam siklus hidup DevOps:
 
 1. **Continuous Integration (CI)**:
