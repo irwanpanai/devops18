@@ -23,9 +23,9 @@ Penting untuk memahami perbedaan ini agar bisa merencanakan dan mengelola jaring
 
 ## Rancangan Jaringan IP
 Buat rancangan sebuah jaringan dengan spesifikasi sebagai berikut!
-      - CIDR Block : 192.168.1.xxx/24
-      - Subnet : 255.255.255.0
-      - Gateway : 192.168.1.1
+- CIDR Block : 192.168.1.xxx/24
+- Subnet : 255.255.255.0
+- Gateway : 192.168.1.1
 ![Diagram Rancangan Jaringan](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/22e211bd-d27d-41a1-a3fd-b824dd316516)
 
 
