@@ -81,6 +81,6 @@ Langkah 4: Instalasi Ubuntu
 
 14. setelah selesai restart VMware anda![37](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/e1d41a69-bd7c-4eca-85e6-d6ba4375ea37)
 
-15. setelah masuk ubuntu ketik username lalu enter dan masukkan username dan password yang telah dibuat tadi![39](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/633a12a6-488f-4c45-a166-e45e89199706)
+15. setelah masuk ubuntu ketik username dan password yang telah dibuat tadi![39](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/633a12a6-488f-4c45-a166-e45e89199706)
 
 Selamat, Anda telah berhasil menginstal Ubuntu menggunakan VMware Workstation! Pastikan Anda memahami bahwa panduan ini bisa saja mengalami perubahan tergantung pada versi VMware Workstation dan Ubuntu yang digunakan.
