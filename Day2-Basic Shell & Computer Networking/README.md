@@ -26,6 +26,9 @@ Buat rancangan sebuah jaringan dengan spesifikasi sebagai berikut!
 - CIDR Block : 192.168.1.xxx/24
 - Subnet : 255.255.255.0
 - Gateway : 192.168.1.1
-![Diagram Rancangan Jaringan](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/22e211bd-d27d-41a1-a3fd-b824dd316516)
+
+Gunakan app.diagrams.net untuk membuat diagramnya
+![Diagram Rancangan Jaringan](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/298b7946-6a68-4761-bb66-f87e46cbc689)
+
 
 
