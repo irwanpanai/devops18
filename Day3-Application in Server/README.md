@@ -57,6 +57,9 @@ Untuk melakukan deploy sebuah program menampilkan nama sendiri yang ditulis dala
 
 2. **Membuat Direktori dan Kode Program:**
    Buatlah direktori untuk proyek Anda dan masuk ke dalamnya. Selanjutnya, buatlah file dengan ekstensi `.go` (misalnya `irwan.go`) dan tambahkan kode "Irwan Panai" berikut:
+   ```
+   nano irwan.go
+   ```
 
    ```go
    package main
@@ -70,7 +73,7 @@ Untuk melakukan deploy sebuah program menampilkan nama sendiri yang ditulis dala
    ![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/35213073-5345-46e2-9e77-ed97589cca75)
 
 
-3. **Kompilasi dan Menjalankan:**
+4. **Kompilasi dan Menjalankan:**
    Buka terminal, arahkan ke direktori proyek Anda, dan jalankan perintah berikut untuk mengompilasi dan menjalankan program:
 
    ```bash
@@ -80,7 +83,7 @@ Untuk melakukan deploy sebuah program menampilkan nama sendiri yang ditulis dala
 
    Anda akan melihat keluaran "Irwan Panai" di terminal.
 
-4. **Build Binary (Opsional):**
+5. **Build Binary (Opsional):**
    Jika Anda ingin menghasilkan binary yang dapat dijalankan tanpa perlu menggunakan perintah `go run`, Anda dapat melakukan kompilasi dengan perintah berikut:
 
    ```bash
