@@ -44,11 +44,10 @@ Langkah 1: Persiapan
 Langkah 2: Membuat Mesin Virtual Baru
 1. Buka VMware Workstation.
 2. Klik "File" > "New Virtual Machine" untuk memulai wizard pembuatan mesin virtual.
-3. Pilih "Typical" untuk memudahkan proses instalasi.
-4. Pada langkah "Installer disk image file (iso)," pilih "Browse" dan arahkan ke file ISO Ubuntu yang telah Anda unduh sebelumnya.
-5. Beri nama untuk mesin virtual Anda dan tentukan lokasi penyimpanan.
-6. Pilih ukuran disk virtual (direkomendasikan minimal 20GB).
-7. Klik "Finish" untuk membuat mesin virtual.
+3. Pada langkah "Installer disk image file (iso)," pilih "Browse" dan arahkan ke file ISO Ubuntu yang telah Anda unduh sebelumnya.
+4. Beri nama untuk mesin virtual Anda dan tentukan lokasi penyimpanan.
+5. Pilih ukuran disk virtual (direkomendasikan minimal 20GB).
+6. Klik "Finish" untuk membuat mesin virtual.
 
 Langkah 3: Konfigurasi Mesin Virtual
 1. Klik kanan pada mesin virtual yang baru dibuat dan pilih "Settings."
