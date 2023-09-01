@@ -52,7 +52,7 @@ Langkah 2: Membuat Mesin Virtual Baru
 Langkah 3: Konfigurasi Mesin Virtual
 1. Klik kanan pada mesin virtual yang baru dibuat dan pilih "Settings."
 2. Atur jumlah CPU 1 CPU atau 2 CPU jika kuat dan RAM 1 GB 
-3. Pada bagian "Network Adapter," pastikan opsi "Bridged" atau "NAT" terpilih untuk mengaktifkan konektivitas jaringan di dalam mesin virtual.
+3. Pada bagian "Network Adapter," pastikan opsi "Bridged" untuk mengaktifkan konektivitas jaringan di dalam mesin virtual.
 4. Klik "OK" untuk menyimpan konfigurasi.
 
 Langkah 4: Instalasi Ubuntu
