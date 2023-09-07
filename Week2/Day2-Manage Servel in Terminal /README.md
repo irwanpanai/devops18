@@ -135,7 +135,11 @@ keterangan : untuk mereplace semua data di file5 dan menggantinya dengan "Replac
 
 ## Tool htop dan nmon
 
-htop merupakan perintah untuk memonitoring sistem, kita dapat melihat penggunaan memory, cpu, swap. Berikut adalah contoh penggunaan :
+**1.htop**
+
+htop merupakan perintah untuk memonitoring sistem, kita dapat melihat penggunaan memory, cpu, swap.
+
+Berikut adalah contoh penggunaan :
 
 ```
 htop
@@ -148,14 +152,105 @@ sudo apt install htop -y
 htop
 ```
 
+![14](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/b156e913-24f4-40b2-8b8c-e917c9ccac52)
+
 Keterangan :
 
-CPU adalah berapa jumlah core yang kita miliki.
-Mem adalah total penggunaan memory.
-Swp adalah Memory cadangan.
-Tasks adalah aplikasi yang sedang berjalan di server.
-Load average adalah rata-rata aplikasi yang berjalan.
-Uptime adalah berapa lama server kita hidup.
-PID adalah nomor proses id setiap proses yang berjalan di linux.
-VIRT adalah memory yang terpakai.
-Command adalah perintah apa yang sedang di jalankan.
+- CPU adalah berapa jumlah core yang kita miliki.
+- Mem adalah total penggunaan memory.
+- Swp adalah Memory cadangan.
+- Tasks adalah aplikasi yang sedang berjalan di server.
+- Load average adalah rata-rata aplikasi yang berjalan.
+- Uptime adalah berapa lama server kita hidup.
+- PID adalah nomor proses id setiap proses yang berjalan di linux.
+- VIRT adalah memory yang terpakai.
+- Command adalah perintah apa yang sedang di jalankan.
+
+**2. nmon**
+
+Pada tampilan awal terdapat beberapa pilihan yang dapat kita gunakan, berikut hanyalah contoh penggunaannya :
+
+Untuk instalasi nmon dapat menggunakan perintah berikut :
+
+```
+sudo apt install nmon
+```
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/12d25569-f56d-4705-bbfb-62602a4a21a0)
+
+Untuk menjalankan nmon kalian dapat menggunakan perintah dibawah ini
+
+```
+nmon
+```
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/94010022-9414-43cc-85c1-362f29de73dd)
+
+Keterangan : Disini kita dapat memilih ingin memonitoring apa saja, Disini kita coba saja untuk menampilkan beberapa saja.
+
+- c adalah CPU
+- m adalah Memory
+- d adalah Disk
+- n adalah network
+
+Berikut adalah tampilan dari nmon untuk menampilkan cpu, memory, disk, dan network
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/268248b7-f052-4874-9fc5-39109a9f4485)
+
+## BASH script untuk instalasi nGinx
+
+Anda dapat membuat skrip BASH sederhana untuk menginstal Nginx dengan perintah berikut:
+
+```bash
+#!/bin/bash
+
+# Periksa apakah script dijalankan sebagai superuser
+if [ "$EUID" -ne 0 ]; then
+    echo "Skrip ini harus dijalankan sebagai superuser (root)." >&2
+    exit 1
+fi
+
+# Perbarui cache paket
+apt update
+
+# Instal Nginx
+apt install -y nginx
+
+# Mulai Nginx
+systemctl start nginx
+
+# Aktifkan Nginx untuk dijalankan saat boot
+systemctl enable nginx
+
+# Tampilkan pesan sukses
+echo "Nginx telah berhasil diinstal dan diaktifkan."
+
+exit 0
+```
+
+Simpan skrip ini dalam file dengan ekstensi `.sh`, misalnya `install_nginx.sh`, dan berikan izin eksekusi dengan perintah:
+
+```bash
+chmod +x install_nginx.sh
+```
+
+Kemudian, jalankan skrip tersebut dengan perintah berikut:
+
+```bash
+sudo ./install_nginx.sh
+```
+
+Skrip ini akan memeriksa apakah Anda menjalankannya sebagai superuser, kemudian memperbarui cache paket, menginstal Nginx, dan mengaktifkannya untuk dijalankan secara otomatis saat sistem boot. Setelah selesai, Anda akan melihat pesan bahwa Nginx telah berhasil diinstal dan diaktifkan.
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/0d1fa2f1-c714-4686-b651-4edb77f34129)
+
+keterangan : kondisi jika skrip dijalankan tidak sebagai superuser(root)
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/e5a8c5f7-2744-4c52-acc9-8cf963ae5836)
+
+keterangan : kondisi jika menjalankan skrip dengan superuser(root)
+
+cek localhost
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/3518dcb1-39d4-4911-9e21-47ebe54815d4)
+
+
