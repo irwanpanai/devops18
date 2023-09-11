@@ -28,6 +28,7 @@ sudo apt install npm -y
 Terdapat 4 perintah pada Script diatas yaitu, Update Repository, Install NodeJS, Cek Versi NodeJS, Install NPM
 
 **3. Jalankan script**
+
 script dapat dijalankan dengan memasukkan perintah:
 
 ```
@@ -35,3 +36,5 @@ sh install_nodejs.sh
 ```
 
 ![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/02a9fcf5-2415-4b9f-8d02-e41d0e22f61c)
+
+beberapa perintah dapat dijalankan dengan 1 perintah script
