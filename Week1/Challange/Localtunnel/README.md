@@ -59,3 +59,41 @@ https://ipv4.icanhazip.com/
 **6. Localtunnel berjalan dengan baik**
 ![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/82541386-60a2-4e07-bc91-e2d49d828eb3)
 
+
+## App python bisa diakses melalui localtunnel
+
+**1. Jalankan Aplikasi python yang anda buat contoh :**
+
+```
+python3 irwan.py
+```
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/38d80e9f-78ac-41cb-a299-a3d2f8bd5b9b)
+
+**2. Jalankan localtunnel**
+
+Selanjutnya, buka terminal lain (jangan menutup terminal yang menjalankan aplikasi Anda). Untuk menggunakan LocalTunnel, jalankan perintah berikut:
+
+```
+lt --port 5000
+```
+
+Disini saya mengisi port 5000 karena Python yang saya gunakan berjalan pada port 5000 lalu saya mendapatkan link:
+
+```
+https://nine-pears-brake.loca.lt/
+```
+
+**3. masukkan ip publik**
+
+Selanjutnya, kita membuka link yang tertulis di terminal dan akan terbuka tampilan seperti diatas lalu masukan IP Public yang kita miliki pada Endpoint IP setelah itu klik Click to Submit
+
+```
+https://ipv4.icanhazip.com/
+```
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/8ab0b4c1-9357-4dcc-8992-b522369c1a14)
+
+**4. Localtunnel berjalan dengan baik**
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/7544f09d-93ad-4730-9ce6-835f8f8ce87b)
