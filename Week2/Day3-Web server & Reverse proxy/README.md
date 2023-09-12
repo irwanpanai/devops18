@@ -1,4 +1,50 @@
-# Web Server & Reverse Proxy
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/a60e93b6-d4b5-429e-9cdf-b41c8ee11562)# Web Server & Reverse Proxy
+## buat server tambahan buat nginx
+
+**1. membuat 1 VM ubuntu seperti minggu pertama**
+
+server baru dinamakan server3 dan memiliki username panai dan memiliki ip 192.168.1.240
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/34a46747-6023-4867-80d5-8036d48c443f)
+
+**2. melakukan update dan upgrade**
+
+melakukan update dan upgrade dapat memasukkan perintah berikut
+
+```
+sudo apt update; sudo apt upgrade
+```
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/0c60a7d4-90cb-4556-b870-cad19398ac2d)
+
+**3. menginstal aplikasi nginx**
+
+menginstal aplikasi nginx dapat dilakukan dengan perintah ini
+
+```
+sudo apt install nginx
+```
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/7fb2e726-85b2-4674-ae7e-3607b67d2df7)
+
+**4. jalankan aplikasi nginx**
+
+menjalankan nginx dapat dilakukan dengan pperintah ini
+```
+sudo systemctl enable nginx
+```
+```
+sudo systemctl start nginx
+```
+dan untuk mengecek status nginx dapat dilakukan dengan perintah ini
+```
+sudo systemctl status nginx
+```
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/6b07228c-b61f-4849-a56e-cb4fb421dbac)
+
+**5. buka browser dan akses ip server anda**
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/bfbcc79d-d2a3-4b49-ad1d-6021f078f244)
+
+
 
 ## Jalankan aplikasi Dumbflix menggunakan PM2
 
