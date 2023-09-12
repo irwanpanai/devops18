@@ -40,4 +40,24 @@ sudo systemctl status nginx
 ```
 ![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/7ae2ac10-d4ef-415f-8c62-765354d0e969)
 
-**5. **
+**5. Jalankan Aplikasi dumbflix di kedua server kita**
+```
+npm start
+```
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/efd5a3f2-ff82-4f38-84eb-4732b80cd243)
+
+**6. Cek browser dan akses domain**
+
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/5f8b03d6-717b-48e5-95d7-79cdf9c8de93)
+
+**7. Matikan salah satu server untuk mengecek Load Balancing berjalan dengan lancar**
+tekan ctrl+c untuk menutup aplikasi
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/afaa10e4-58c2-4273-b3bd-a11bb69c0d77)
+aplikasi masih bisa berjalan walaupun aplikasi sudah di tutup di server2 username irwanp
+
+**8. Uji sebaliknya matikan aplikasi di server3 nyalakan di server2**
+![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/aca0e752-0dcf-4651-b61d-c4db228bcb3c)
+**load Balancing berjalam dengan lancar**
+
+
+
