@@ -1,4 +1,4 @@
-![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/a60e93b6-d4b5-429e-9cdf-b41c8ee11562)# Web Server & Reverse Proxy
+# Web Server & Reverse Proxy
 ## buat server tambahan buat nginx
 
 **1. membuat 1 VM ubuntu seperti minggu pertama**
